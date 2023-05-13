@@ -1,0 +1,28 @@
+.card {
+    background: #303030;
+    border-radius: .3rem;
+    width: calc(100vh/2.5);
+    padding: 1em;
+    margin: 1em;
+    cursor:pointer;
+}
+
+.preimg {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+img {
+    width: calc(100vh/2.5)
+}
+
+h2 {
+    all:unset;
+    font-size: 1.1rem; ;
+    text-decoration: none;
+    color: azure;
+}
+
+.sub {
+    font-size: calc(100vh/60);
+}

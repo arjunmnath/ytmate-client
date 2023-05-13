@@ -1,0 +1,37 @@
+.tab {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.select-menu {
+  width: calc(100vw /1.5)
+}
+
+.paper {
+  width: calc(100vw / 1.15);
+  margin: calc(100vw/35)
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex-column-children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.dl-btn {
+  width: 100%;
+}
+
+@media only screen and (min-width: 620px) {
+  .paper {
+    width: calc(100vw / 2.2);
+    margin: calc(100vw/90)
+  }
+}

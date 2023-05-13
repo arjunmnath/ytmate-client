@@ -1,0 +1,43 @@
+.queryinp {
+    background: white;
+    border: none;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.header {
+    background:#121212;
+    padding: 10rem 2em 0 2em;;
+    height: 100vh;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+#submit {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    color: white;
+    background: #f7b733;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+}
+
+#head {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: white;
+}

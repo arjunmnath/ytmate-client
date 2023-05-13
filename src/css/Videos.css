@@ -1,0 +1,10 @@
+.videoList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    height: 100%;
+    align-items: flex-start;
+
+}

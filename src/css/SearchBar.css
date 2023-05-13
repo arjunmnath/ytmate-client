@@ -1,0 +1,20 @@
+#inp {
+    border: none;
+    width: 60%;
+    padding: 15px;
+}
+
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+
+#submitbtn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #f7b733;
+}

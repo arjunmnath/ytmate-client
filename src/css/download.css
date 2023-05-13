@@ -1,0 +1,33 @@
+video {
+  padding-top: 20px;
+  width: calc(100vw / 1.2);
+  height: auto;
+  /* position: absolute;
+  border:0;
+  top: 0;
+  left: 0; */
+}
+
+.download-info {
+  margin: calc(100vh/90);
+  display:flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.video_wrapper {
+  position: relative;
+  height: auto;
+  margin: calc(100vh / 40);
+}
+@media only screen and (min-width: 620px) {
+  video {
+    width: calc(100vw / 2.2);
+  }
+  .download-info {
+    width: 50%
+  }
+}
+
+.fake {
+  background: white;
+}
